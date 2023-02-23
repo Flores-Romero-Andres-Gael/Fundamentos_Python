@@ -13,7 +13,7 @@ nuevoTema("Operadores logicos")
 print("\n---------------And--------------")
 print("Ejemplo: (True and False): ", True and False)
 print("Ejemplo: (True and True): ", True and True)
-print("Ejemplo: (False and True): ", False and True)
+print("Ejemplo: (False and True): ", False and True) 
 print("Ejemplo: (False and False): ", False and False)
 
 print("\n---------------Not--------------")
@@ -95,7 +95,8 @@ a = [10, 20.5, "Python List"]
 print(a)
 print("a[1] =", a[1])
 a[0] = "Hola"
-print(a)
+print(a, type(a))
+
 
 nuevoTema("Tuplas")
 t = (25, "Tupla", 1+10j, 3.1416)
